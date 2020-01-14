@@ -66,8 +66,8 @@
 #define Rd_CH2			0x38
 #define Rd_CH3			0x39
 
-#define TS20_SLAVE_GND  0x6A //0xD4<<1 //ADD Pin = GND
-#define TS20_SLAVE_VDD  0x7A //0xF4<<1 //ADD Pin = VDD
+#define TS20_SLAVE_GND  0x6A //0xD4>>1 //ADD Pin = GND
+#define TS20_SLAVE_VDD  0x7A //0xF4>>1 //ADD Pin = VDD
 
 void  Init_TS20(void); //Initialize TS20
 
